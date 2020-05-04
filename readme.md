@@ -8,3 +8,6 @@ by. gwkim
     - cd lighthouse
     - docker build -t lighthouse .
     - docker run --rm lighthouse <URL> >> result.json
+  
+### Reference
+    - https://stackoverflow.com/questions/48230901/docker-alpine-with-node-js-and-chromium-headless-puppeter-failed-to-launch-c
