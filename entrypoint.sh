@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-lighthouse --output json --chrome-flags="--headless --no-sandbox" --quiet --only-categories=performance "$@"
+lighthouse --output json --throttling-method=provided --chrome-flags="--headless --no-sandbox" --quiet --only-categories=performance "$@"
