@@ -1,7 +1,6 @@
 # reference
 # https://stackoverflow.com/questions/48230901/docker-alpine-with-node-js-and-chromium-headless-puppeter-failed-to-launch-c
-
-FROM node:11-alpine
+FROM node:12-alpine
 
 ENV CHROME_BIN="/usr/bin/chromium-browser"\
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true"
